@@ -1,4 +1,17 @@
 
+class GameBoard(object):
+
+    def __init__(self, battleships, board_width, board_height):
+        self.battleships = battleships
+        self.shots = []
+        self.board_width = board_width
+        self.board_height = board_height
+
+    def take_shot(self, shot_location):
+        pass
+
+
+
 class Battleship(object):
 
     @staticmethod
